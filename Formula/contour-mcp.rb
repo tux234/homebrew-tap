@@ -1,24 +1,24 @@
 class ContourMcp < Formula
   desc "Read-only MCP server exposing Contour to AI agents"
   homepage "https://github.com/macadmins/contour"
-  version "0.5.0-rc.2"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/macadmins/contour/releases/download/v0.5.0-rc.2/contour-mcp-0.5.0-rc.2-macos-arm64.zip"
-      sha256 "d77f33dde3040bf27d74b414d6aa0e88dd2fc73e77398e18006617da2b465fd7"
+      url "https://github.com/macadmins/contour/releases/download/v0.5.0/contour-mcp-0.5.0-macos-arm64.zip"
+      sha256 "53dd10f1229920c312bd7890f14dc7548730eb164990b37dcfa3c17daa6c2d54"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/macadmins/contour/releases/download/v0.5.0-rc.2/contour-mcp-0.5.0-rc.2-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fa5af164b02c4d508e7ac8a4e713a3c337d5bf3d0e08b308bb4711df3713667d"
+      url "https://github.com/macadmins/contour/releases/download/v0.5.0/contour-mcp-0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "969e9caf5e0ac2fe948f4c1c2c4cc483979dfd6fe157f71f61923fe1c12c76c2"
     end
     on_intel do
-      url "https://github.com/macadmins/contour/releases/download/v0.5.0-rc.2/contour-mcp-0.5.0-rc.2-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2a42ebcd84598b08c2b458e6d8beb7536dac4ed9a36b28665789663585c0df10"
+      url "https://github.com/macadmins/contour/releases/download/v0.5.0/contour-mcp-0.5.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f0410fa75cf07aa2a13058524c4eb4226e2f1b743ac247100b8a855d4e7582b6"
     end
   end
 
